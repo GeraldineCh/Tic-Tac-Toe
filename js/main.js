@@ -9,7 +9,7 @@ var siete = document.getElementById("casilla7");
 var ocho = document.getElementById("casilla8");
 var nueve = document.getElementById("casilla9");
 var reinicio = document.getElementById("nuevo");
-var tablero = document.getElementsByClassName("tablero");
+var tablero = document.getElementsByClassName("espacio");
 var estado = true;
 var contador;
 
