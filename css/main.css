@@ -1,0 +1,23 @@
+/* Tutorial https://www.w3schools.com/css/ */
+
+
+body {
+    background-image: url(confeti.jpg);
+
+}
+
+h1 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+input.type.button {
+  color: purple;
+}
+
+div.tablero {
+    font-family: verdana;
+    font-size: 20px;
+}
