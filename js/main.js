@@ -18,12 +18,14 @@ function inicio() {
     if (estado === true) {
         this.setAttribute("value", "X");
         actualizar();
+        this.disabled = true;
         estado = false;
         return false;
     }
     if (estado === false) {
         this.setAttribute("value", "O");
         actualizar();
+        this.disabled = true;
         estado = true;
     }
 }
