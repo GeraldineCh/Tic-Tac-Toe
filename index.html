@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Tic-tac-Toe</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
   </head>
-  <body>
+  <body style="text-align:center;">
     <h1>Juego del Tic-Tac-Toe</h1>
     <div class="tablero">
       <input type="button" id="casilla1" class="espacio" value="e"/>
@@ -18,7 +19,9 @@
       <input type="button" id="casilla7" class="espacio" value="e"/>
       <input type="button" id="casilla8" class="espacio" value="e"/>
       <input type="button" id="casilla9" class="espacio" value="e"/>
+      <br>
     </div>
-    <div><input type="button" id="nuevo" class="nuevo" value="Nueva partida"></div>
+    <div><input type="button" id="nuevo" class="nuevo" value="Nueva partida" onclick="nuevaPartida()"></div>
+    <script src="js/main.js"></script>
   </body>
 </html>
