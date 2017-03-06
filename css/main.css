@@ -12,12 +12,3 @@ h1 {
     text-align: center;
     font-size: 30px;
 }
-
-input.type.button {
-  color: purple;
-}
-
-div.tablero {
-    font-family: verdana;
-    font-size: 20px;
-}
